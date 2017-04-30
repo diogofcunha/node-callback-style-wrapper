@@ -1,6 +1,6 @@
 {
   "name": "node-callback-style-wrapper",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Promise wrapper for callback style code",
   "main": "index.js",
   "dependencies": {},
