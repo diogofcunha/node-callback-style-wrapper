@@ -25,7 +25,7 @@ const wrapper = require('node-callback-style-wrapper');
 const fs = require('fs');
 
 wrapper(fs.readdir, './path/to/my/dir')
-   .then((x) => { doStuff(x)) })
+   .then((x) => { doStuff(x) })
    .catch((err) => { console.error("Unexpected error", err) })
    
 ```

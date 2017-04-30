@@ -1,3 +1,11 @@
-const wrapper = require('./src/wrapper');
+module.exports = (callback, ...params) => {
+   return new Promise((resolve, reject) => {
+      callback(...params, (err, ...rest) => {
+         if (err) {
+            return reject(err);
+         }
 
-module.exports = wrapper;
+         resolve(...rest)
+      })
+   })
+};
