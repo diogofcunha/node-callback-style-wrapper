@@ -1,0 +1,21 @@
+{
+  "name": "node-callback-style-wrapper",
+  "version": "0.0.1",
+  "description": "Promise wrapper for callback style code",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "node",
+    "callback style code",
+    "promises"
+  ],
+  "author": "Diogo Cunha",
+  "license": "MIT"
+}
