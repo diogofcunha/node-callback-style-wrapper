@@ -1,5 +1,7 @@
 # node-callback-style-wrapper
 
+[![npm version](https://badge.fury.io/js/node-callback-style-wrapper.svg)](https://badge.fury.io/js/node-callback-style-wrapper)
+
 Node callback style (also know as error first callback) was great, it arrived as the perfect match with the idea of creating non-blocking software, the win of callbacks over event handlers was instrumental in the growth of modern JS development.
 
 Nowadays the solution is too coupled with the imperative programming paradigm, in 2017 we want to write more declarative code, we don't want to add if statements to check if our callback threw an error.
