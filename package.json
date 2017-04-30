@@ -1,6 +1,6 @@
 {
   "name": "node-callback-style-wrapper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Promise wrapper for callback style code",
   "main": "index.js",
   "dependencies": {},
@@ -8,6 +8,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "node",
     "callback style code",
